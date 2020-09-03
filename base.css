@@ -1,0 +1,142 @@
+hr.sml {
+	margin: 5px 0;
+}
+input[readonly] {
+	border: 1px solid transparent;
+	background: transparent;
+	cursor: default;
+}
+input[type=range] {
+	display: block;
+}
+li {
+	list-style: none;
+}
+.abs {
+	position: absolute;
+}
+.abs.top {
+	top: 0;
+}
+.abs.rgt {
+	right: 0;
+}
+.abs.btm {
+	bottom: 0;
+}
+.align.cntr {
+	text-align: center;
+}
+.align-lft {
+	text-align: left;
+}
+.aln.ver {
+	vertical-align: top;
+}
+.bg.light {
+	background: #eee;
+}
+.blk {
+	display: block;
+}
+.brdr {
+	border: 1px solid red;
+}
+.brdr.b {
+	border: 1px solid blue;
+}
+.inlinblk {
+	display: inline-block;
+}
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ff {
+	width: 50%;
+}
+.flt.lft {
+	float: left;
+}
+.flt.rgt {
+	float: right;
+}
+.flx {
+	display: flex;
+}
+.flx.hor {
+	flex-direction: row;
+}
+.flx.ver {
+	flex-direction: column;
+}
+.font-sml {
+	font-size: 10px;
+}
+.inline {
+	display: flex;
+	display: inline-block;
+	flex-direction: row;
+}
+.inline > * {
+	display: inline-block;
+}
+.mrg.lft {
+	margin-left: 10px;
+}
+.mrg.lft.mdl {
+	margin-left: 20px;
+}
+.mrg.btm {
+	margin-bottom: 10px;
+}
+.mrg.btn.mdl {
+	margin-bottom: 20px;
+}
+.mrg.hor {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.mrg.hor.nomrg {
+	margin-left: 0;
+	margin-right: 0;
+}
+.mrg.ver {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mrg.ver.nomrg {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.mrg.nomrg {
+	margin: 0;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.nobrdr {
+	border: 1px solid transparent;
+}
+.padd {
+	box-sizing: border-box;
+	padding: 5px;
+}
+.padd.hor.nopadd {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.padd.ver.nopadd {
+	padding: 0 auto;
+}
+.rltv {
+	position: relative;
+}
+.txtalign.lft {
+	text-align: left;
+}
+.str {
+	box-sizing: border-box;
+	min-width: 100%;
+	max-width: 100%;
+}

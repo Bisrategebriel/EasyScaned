@@ -1,0 +1,172 @@
+span.found {
+	display: inline-block;
+	background: #adf;
+	background: rgba(200,200,40,0.8);
+	border: 1px solid #cc4;
+	padding: 0px 5px;
+}
+input,select,textarea {
+	background: white;
+	color: black;
+}
+label {
+	margin: 0;
+}
+.hatf {
+	display: none;
+}
+.iframecont {
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+.iframecont > iframe {
+	width: 90%;
+	height: 1000px;
+}
+div.cont {
+	text-align: center;
+}
+div.cont > div {
+	
+}
+div.cont > div > div {
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+	text-align: left;
+}
+div.cont > div > div > input {
+	display: block;
+}
+div.cont > div > div.rightpanel {
+	width: 50%;
+}
+div.cont > div > div > table {
+	width: 100%;
+}
+div.cont > div > div > table td img {
+	width: 100%;
+}
+div.cont > div > div > table td {
+	border: 1px solid #aaa;
+	max-width: 50px;
+}
+input[type=button] {
+	cursor: pointer;
+}
+
+.infdispcont {
+	
+}
+.infdispcont img {
+	width: 100px;
+}
+.infdispcont .infdisp {
+	text-align: left;
+}
+.infdispcont .infdisp > span {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	max-width: 60%;
+}
+.infdispcont .infdisp > span input[type='submit'] {
+	float: right;
+}
+.infdispcont .infdisp > span input[type='text'] {
+	width: 100%;
+	margin: 2px;
+}
+.infdispcont .infdisp > span textarea {
+	width: 100%;
+	margin: 2px;
+}
+table,td {
+	position: relative;
+}
+.srchdisp > option {
+	cursor: pointer;
+	padding: 8px 10px;
+}
+.srchdisp > option:hover {
+	background: #fff;
+}
+.srchdisp {
+	position: absolute;
+	z-index: 99;
+	border: 1px solid #aaa;
+	border-top: 0;
+	background: #eee;
+	margin: -8px 0;
+	padding: 0 15px 0 5px;
+	max-height: 300px;
+	width: 80%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.inp-sty.c {
+	width: auto;
+	display: inline-block;
+	padding: 7px;
+	margin-bottom: 10px;
+	border: 1px dotted rgb(44,120,206);
+	border-radius: 5px;
+}
+input[type=file] {
+	width: 60%;
+	display: inline-block;
+}
+.pagecont {
+	text-align: center;
+	margin: 5px 0;
+	padding: 20px;
+}
+.pagecont > a {
+	display: inline-block;
+	border: 1px solid #aaa;
+	background: orange;
+	padding: 2px 8px;
+	color: #111;
+	transition: all .2s;
+}
+.pagecont > a:hover {
+	transform: scale(1.3);
+	text-decoration: none;
+}
+.log {
+	background: #eee;
+	width: 100%;
+	min-height: 400px;
+	padding: 30px 10px;
+	font-weight: bold;
+	font-family: arial;
+	color: #333;
+}
+.statscont > ul {
+	vertical-align: top;
+	display: inline-block;
+}
+.statspec {
+
+}
+canvas.rep {
+	display: inline-block;
+}
+.dropmenu {
+	padding: 0; margin: 0;
+	text-align: left;
+	cursor: default;
+}
+.dropmenu > li {
+	cursor: pointer;
+}
+.dropmenu > li > ul {
+	display: none;
+}
+.blk {
+	display: block;
+}
+.hdn {
+	display: none;
+}
